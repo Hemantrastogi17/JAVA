@@ -13,7 +13,7 @@ package com.company;
 //    }
 //}
 
-
+//Creating a singleton class using private constructor
 public class PrivateConstructors{
     //Create a public static variable of class type to store object in createInstance() method
     private static PrivateConstructors pcons;

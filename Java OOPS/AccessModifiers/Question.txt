@@ -1,0 +1,1 @@
+//prove that you cannot access deafault property but can access protected properly from the subclass.   

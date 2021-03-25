@@ -24,6 +24,10 @@ class avonBicycle implements biCycle,blowHorn{
     public void bloHorn_dhoom(){
         System.out.println("Dhoom DHoom");
     }
+    public void testFunction(){
+        System.out.println("This is a test function");
+    }
+
 }
 
 public class Interfaces {
@@ -31,5 +35,6 @@ public class Interfaces {
     avonBicycle a = new avonBicycle();
     a.applyBreak(65);
         System.out.println(a.a);
+
     }
 }

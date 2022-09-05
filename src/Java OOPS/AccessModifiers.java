@@ -1,4 +1,4 @@
-package  com.company;
+package com.company;
 class C1{
     public  int a =45 ;
     protected int b =96;

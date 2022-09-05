@@ -3,7 +3,6 @@ package com.company;
 import java.util.Scanner;
 import java.util.Vector;
 
-import static javafx.application.Platform.exit;
 
 class User{
     Vector<String> books = new Vector<>();
@@ -42,7 +41,7 @@ class User{
                 System.out.println("Your donation has been accepted");
             }
             else if( choice ==2){
-                exit();
+                System.exit(0);
             }
         }
         books.addElement(returnName);
@@ -73,7 +72,7 @@ public class Library {
             case 2: u.issueBook();break;
             case 3: u.returnBook();break;
             case 4: u.showBooks();break;
-            case 5: loop = false;exit();break;
+            case 5: loop = false;System.exit(0);break;
             default:
                 System.out.println("Invalid choice ! Please try again");
         }

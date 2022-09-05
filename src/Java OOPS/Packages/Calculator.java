@@ -1,4 +1,4 @@
-package calcpackage;
+package com.company.Packages;
 class Calculator{
 
 public void add(int a , int b){
